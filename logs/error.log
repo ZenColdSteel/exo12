@@ -1,0 +1,53 @@
+[2025-02-20T08:54:46.907Z] ERROR: readJsonFile is not defined
+Stack: ReferenceError: readJsonFile is not defined
+    at getArticleById (file:///C:/Users/bilal/Desktop/exercise10/routes/articles.js:55:26)
+    at handleRequest (file:///C:/Users/bilal/Desktop/exercise10/routes/articles.js:21:19)
+    at Server.<anonymous> (file:///C:/Users/bilal/Desktop/exercise10/server.js:23:19)
+[2025-02-20T08:55:59.367Z] ERROR: SQLITE_ERROR: no such table: articles
+Stack: Error: SQLITE_ERROR: no such table: articles
+[2025-02-20T08:56:39.883Z] ERROR: SQLITE_ERROR: no such table: articles
+Stack: Error: SQLITE_ERROR: no such table: articles
+[2025-02-20T08:56:44.112Z] ERROR: SQLITE_ERROR: no such table: articles
+Stack: Error: SQLITE_ERROR: no such table: articles
+[2025-02-20T09:00:40.619Z] ERROR: SQLITE_ERROR: no such table: articles
+Stack: Error: SQLITE_ERROR: no such table: articles
+[2025-02-20T09:00:57.727Z] ERROR: SQLITE_ERROR: no such table: articles
+Stack: Error: SQLITE_ERROR: no such table: articles
+[2025-02-26T10:42:48.703Z] ERROR: SQLITE_ERROR: no such column: user_id
+Stack: Error: SQLITE_ERROR: no such column: user_id
+[2025-02-27T08:13:53.014Z] ERROR: SQLITE_ERROR: no such column: users.username
+Stack: Error: SQLITE_ERROR: no such column: users.username
+[2025-02-27T08:18:31.676Z] ERROR: SQLITE_ERROR: no such column: users.username
+Stack: Error: SQLITE_ERROR: no such column: users.username
+[2025-02-27T08:20:04.405Z] ERROR: SQLITE_ERROR: no such column: users.username
+Stack: Error: SQLITE_ERROR: no such column: users.username
+[2025-02-27T08:20:17.844Z] ERROR: SQLITE_ERROR: no such column: users.username
+Stack: Error: SQLITE_ERROR: no such column: users.username
+[2025-02-27T08:21:42.743Z] ERROR: SQLITE_ERROR: no such column: users.username
+Stack: Error: SQLITE_ERROR: no such column: users.username
+[2025-02-27T09:00:57.758Z] ERROR: articles is not defined
+Stack: ReferenceError: articles is not defined
+    at getUserWithArticles (file:///C:/Users/bilal/Desktop/exercise11/routes/users.js:205:43)
+    at async handleUserRequest (file:///C:/Users/bilal/Desktop/exercise11/routes/users.js:22:13)
+    at async Server.<anonymous> (file:///C:/Users/bilal/Desktop/exercise11/server.js:27:13)
+[2025-02-27T09:00:57.769Z] ERROR: Cannot write headers after they are sent to the client
+Stack: Error [ERR_HTTP_HEADERS_SENT]: Cannot write headers after they are sent to the client
+    at ServerResponse.writeHead (node:_http_server:351:11)
+    at getUserWithArticles (file:///C:/Users/bilal/Desktop/exercise11/routes/users.js:208:13)
+    at async handleUserRequest (file:///C:/Users/bilal/Desktop/exercise11/routes/users.js:22:13)
+    at async Server.<anonymous> (file:///C:/Users/bilal/Desktop/exercise11/server.js:27:13)
+[2025-02-27T09:00:57.771Z] ERROR: Cannot write headers after they are sent to the client
+Stack: Error [ERR_HTTP_HEADERS_SENT]: Cannot write headers after they are sent to the client
+    at ServerResponse.writeHead (node:_http_server:351:11)
+    at handleUserRequest (file:///C:/Users/bilal/Desktop/exercise11/routes/users.js:39:13)
+    at async Server.<anonymous> (file:///C:/Users/bilal/Desktop/exercise11/server.js:27:13)
+[2025-02-28T13:33:58.939Z] ERROR: Cannot write headers after they are sent to the client
+Stack: Error [ERR_HTTP_HEADERS_SENT]: Cannot write headers after they are sent to the client
+    at ServerResponse.writeHead (node:_http_server:351:11)
+    at handleUserRequest (file:///C:/Users/bilal/Desktop/exercise12/routes/users.js:28:13)
+    at async Server.<anonymous> (file:///C:/Users/bilal/Desktop/exercise12/server.js:27:13)
+[2025-02-28T13:39:06.473Z] ERROR: Cannot write headers after they are sent to the client
+Stack: Error [ERR_HTTP_HEADERS_SENT]: Cannot write headers after they are sent to the client
+    at ServerResponse.writeHead (node:_http_server:351:11)
+    at handleUserRequest (file:///C:/Users/bilal/Desktop/exercise12/routes/users.js:33:13)
+    at async Server.<anonymous> (file:///C:/Users/bilal/Desktop/exercise12/server.js:27:13)
